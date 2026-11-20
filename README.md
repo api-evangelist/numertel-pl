@@ -1,4 +1,4 @@
-# numertel-pl
+# NumerTel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-numertel-pl is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://numertel.pl/
+NumerTel.pl provides a free service for Polish users to look up phone numbers, identify callers, and detect spam, telemarketing, or fraudulent calls. The platform aggregates a database of over 130 million numbers across all operators and MVNOs, offering search, SMS scanner, fraud warnings, white‑list, and detailed number information sourced from public regulator data (UKE). It aims to help users avoid unwanted calls and scams by providing opinions, ratings, and verification tools.
+
+**Areas:** Telecommunications · PhoneLookup · SpamDetection · Poland · FreeService
+
+## NumerTel on APIs.io
+
+Everything profiled for NumerTel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/numertel-pl/](https://apis.io/providers/numertel-pl/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [NumerTel API](https://apis.io/apis/numertel-pl/numertel-api/) — Sprawdzanie polskich numerów telefonów, domen oszustów (Lista Ostrzeżeń CERT) i wskaźników nadużyć w Polsce.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [NumerTel Agentic Access](https://apis.io/agentic-access/numertel-pl/numertel-pl-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [NumerTel API Rules](https://apis.io/rules/numertel-pl/numertel-pl-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [NumerTel Domain Security](https://apis.io/security/numertel-pl/numertel-pl-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://numertel.pl/)
+- [Documentation](https://numertel.pl/dla-deweloperow)
+- [Blog](https://numertel.pl/blog)
+- [Terms of service](https://numertel.pl/regulamin)
+- [Privacy policy](https://numertel.pl/polityka-prywatnosci)
+
+## API Evangelist rating
+
+**Kin Score 18.7** — emerging · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 0.0 |
+| Contract governance | 65.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 10.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/numertel-pl/](https://apis.io/providers/numertel-pl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NumerTel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/numertel-pl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
